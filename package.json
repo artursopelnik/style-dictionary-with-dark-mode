@@ -7,12 +7,18 @@
     "start": "npm run build",
     "build": "tsx ./src/buildThemes.ts",
     "clean": "rm -Rf build",
+    "format": "npx prettier . --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["style-dictionary", "dark mode", "dark"],
+  "keywords": [
+    "style-dictionary",
+    "dark mode",
+    "dark"
+  ],
   "author": "Artur Sopelnik <artur.sopelnik93@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "prettier": "3.4.2",
     "style-dictionary": "^4.3.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
