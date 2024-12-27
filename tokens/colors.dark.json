@@ -1,0 +1,11 @@
+{
+  "colors": {
+    "$type": "color",
+    "black": {
+      "$value": "#2e2e2e"
+    },
+    "white": {
+      "$value": "#fefefe"
+    }
+  }
+}

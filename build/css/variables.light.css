@@ -1,0 +1,60 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root, :host, .theme-light {
+  --colors-black: #000000;
+  --colors-white: #ffffff;
+  --colors-orange-100: #fffaf0;
+  --colors-orange-200: #feebc8;
+  --colors-orange-300: #fbd38d;
+  --colors-orange-400: #f6ad55;
+  --colors-orange-500: #ed8936;
+  --colors-orange-600: #dd6b20;
+  --colors-orange-700: #c05621;
+  --colors-orange-800: #9c4221;
+  --colors-orange-900: #7b341e;
+  --dimensions-0: 0px;
+  --dimensions-1: 4px;
+  --dimensions-2: 8px;
+  --dimensions-3: 12px;
+  --dimensions-4: 16px;
+  --dimensions-5: 20px;
+  --dimensions-6: 24px;
+  --dimensions-7: 28px;
+  --dimensions-8: 32px;
+  --dimensions-9: 36px;
+  --dimensions-10: 40px;
+  --dimensions-11: 44px;
+  --dimensions-12: 48px;
+  --dimensions-13: 52px;
+  --dimensions-14: 56px;
+  --dimensions-15: 60px;
+  --dimensions-max: 9999px;
+  --text-fonts-serif: 'Times New Roman', serif;
+  --text-fonts-sans: 'Open Sans', sans-serif;
+  --text-weights-light: thin;
+  --text-weights-regular: regular;
+  --text-weights-bold: extra-bold;
+  --text-line-heights-normal: 1.2;
+  --text-line-heights-large: 1.8;
+  --transitions-easing-functions-accelerate: cubic-bezier(0.5, 0, 1, 1);
+  --transitions-easing-functions-decelerate: cubic-bezier(0, 0, 0.5, 1);
+  --transitions-durations-instant: 0ms;
+  --transitions-durations-short: 100ms;
+  --transitions-durations-medium: 300ms;
+  --transitions-durations-long: 600ms;
+  --borders-styles-solid: solid;
+  --borders-styles-dashed: dashed;
+  --text-sizes-heading: var(--dimensions-7);
+  --text-typography-heading: var(--text-weights-bold) var(--text-sizes-heading)/var(--text-line-heights-large) var(--text-fonts-sans);
+  --text-sizes-body: var(--dimensions-4);
+  --text-typography-body: var(--text-weights-regular) var(--text-sizes-body)/var(--text-line-heights-normal) var(--text-fonts-serif);
+  --transitions-emphasis: var(--transitions-durations-medium) var(--transitions-easing-functions-accelerate) var(--transitions-durations-instant);
+  --transitions-fade: var(--transitions-durations-long) var(--transitions-easing-functions-decelerate) var(--transitions-durations-instant);
+  --borders-heavy: var(--dimensions-1) var(--borders-styles-solid) var(--colors-black);
+  --borders-wireframe: var(--dimensions-2) var(--borders-styles-dashed) var(--colors-orange-600);
+  --shadows-sm: var(--dimensions-0) var(--dimensions-1) var(--dimensions-3) var(--colors-black);
+  --shadows-lg: var(--dimensions-0) var(--dimensions-2) var(--dimensions-4) var(--colors-black);
+  --shadows-multi: var(--shadows-sm), var(--shadows-lg);
+}
