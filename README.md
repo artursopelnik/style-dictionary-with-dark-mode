@@ -1,16 +1,18 @@
 # Style Dictionary with Dark Mode
 
-This project demonstrates the implementation of a multi-file approach for [Style Dictionary](https://amzn.github.io/style-dictionary/) using file extensions and TypeScript. It assumes prior knowledge of [Design Tokens](https://www.designtokens.org/) and Style Dictionary.
+This project accompanies my blog post on [Medium](https://medium.com/@artur.sopelnik93/how-to-use-design-tokens-with-style-dictionary-and-dark-mode-fdb53f675977) where I explain how to implement Design Tokens with Style Dictionary, focusing on multi-file architecture and dark mode support.
+
+It demonstrates the usage of [Style Dictionary](https://amzn.github.io/style-dictionary/) with TypeScript integration to enhance scalability and developer experience, assuming prior knowledge of [Design Tokens](https://www.designtokens.org/) and Style Dictionary.
 
 ## Features
 
-- Multi-file architecture for better scalability and organization.
-- Dark mode support for design tokens.
-- TypeScript integration for type safety and enhanced developer experience.
+- **Multi-file architecture**: Improved scalability and better project organization.
+- **Dark mode support**: Easily toggle between light and dark themes using design tokens.
+- **TypeScript integration**: Ensures type safety and better developer experience.
 
 ## Getting Started
 
-Follow these steps to set up and run the project:
+Follow these steps to get the project up and running:
 
 ### 1. Clone the Repository
 
@@ -20,19 +22,22 @@ git clone https://github.com/artursopelnik/style-dictionary-with-dark-mode.git
 
 ### 2. Install Dependencies
 
+Install the required dependencies using npm:
+
 ```bash
 npm install
 ```
 
-### 3. Run Style Dictionary
+### 3. Build the Design Tokens
 
-To generate the design tokens, run:
+To generate the design tokens and assets, run:
 
 ```bash
 npm run build
 ```
 
-This command will build and output the generated artifacts.
+This command will generate the output in the build directory.
+
 
 ### 4. Available Commands
 
@@ -42,4 +47,5 @@ This command will build and output the generated artifacts.
 
 ### 5. Explore the Output
 
-After running the build command, you will find the generated files in the `build` directory. These files include the tokens and other assets ready for use in your projects.
+After building, you will find the generated files in the `build` directory. These files include your design tokens and other necessary assets, ready to be integrated into your projects.
+
